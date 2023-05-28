@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = "style.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="result">
+            <p class="activeresult" style="margin: 0px;font-size: small; font-family: sans-serif; background-color: rgba(122, 121, 121, 0.63);"></p>
+            <p id="resultnumb" style="margin: 5px;font-size: large; font-family: sans-serif; overflow:auto;"> </h3>
+        </div>
+        <div class="buttons">
+            <div class="standard">
+                <button class="n1">1</button>
+                <button class="n2">2</button>
+                <button class="n3">3</button>
+                <button class="op3">+</button>
+                <button class="n4">4</button>
+                <button class="n5">5</button>
+                <button class="n6">6</button>
+                <button class="op4">-</button>
+                <button class="n7">7</button>
+                <button class="n8">8</button>
+                <button class="n9">9</button>
+                <button class="op5">x</button>
+                <button class="op1">.</button>
+                <button class="n0">0</button>
+                <button class="op2" onclick="resultcal()">=</button>
+                <button class="op6">/</button>
+            </div>
+            <div class="control">
+                <button class="delete" onclick="deletenum()">Delete</button>
+                <button class="clear" onclick="clearall()">Clear</button>
+            </div>
+       </div>
+    </div>
+    <script src = "main.js"></script>
+</body>
+</html>

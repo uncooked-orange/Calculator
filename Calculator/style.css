@@ -1,0 +1,54 @@
+body
+{
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(98, 150, 170));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.main
+{
+    border: 15px solid rgb(46, 46, 46);
+    border-radius: 4%;
+    height: 70vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.result
+{
+    text-align: end;
+    background-color: rgb(136, 136, 136);
+    flex: 1;
+}
+.buttons
+{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.standard
+{
+    flex: auto;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+}
+.control
+{   
+    display: grid;
+}
+button
+{
+    border: 1px solid black;
+    border-radius: 0%;
+}
+button:hover
+{
+    transition: 0.4s;
+    background-color:rgb(114, 113, 113);
+}
+.operators
+{
+    flex: 1;
+    display: grid;
+}
